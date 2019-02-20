@@ -31,3 +31,7 @@ body {
 	
 	margin:auto;
 }
+
+.imglion img{
+    border: 5px solid;
+}
