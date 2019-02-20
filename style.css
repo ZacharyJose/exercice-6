@@ -38,9 +38,11 @@ body {
 
 .entry-title {
     background-color: white;
+	transition-duration: 1s;
 }
 
 .entry-title:hover {
 
 background-color: blue;
+	transition-duration: 1s;
 }
