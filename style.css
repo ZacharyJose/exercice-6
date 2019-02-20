@@ -35,3 +35,12 @@ body {
 .imglion img{
     border: 5px solid;
 }
+
+.entry-title {
+    background-color: white;
+}
+
+.entry-title:hover {
+
+background-color: blue;
+}
