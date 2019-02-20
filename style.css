@@ -12,7 +12,10 @@
  Text Domain:  twenty-nineteen-child
 */
 
-
+body {
+	color: white;
+	background: 	#00719B;
+}
 
 .site-branding {
 	font-size: 3em;
