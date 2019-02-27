@@ -27,22 +27,23 @@ body {
 }
 
 
-.content-area {
-	
-	margin:auto;
+
+.imglion {
+   text-align: center;
 }
 
 .imglion img{
     border: 5px solid;
+    margin:auto;
 }
 
 .entry-title {
-    background-color: white;
+    background-color: black;
 	transition-duration: 1s;
 }
 
 .entry-title:hover {
 
-background-color: blue;
+background-color: #003A57;
 	transition-duration: 1s;
 }
