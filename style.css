@@ -80,5 +80,26 @@
     -webkit-transform-origin: 50% 0%;
     transform-origin: 50% 0%;
   }
+
+
+ 
+
+
+}
+
+.textelion {
+  text-align: center;
+  transform: scale(1);
+  transition-duration: 1s;
+}
+
+.imglion p{
+  margin:0 auto;
+}
+
+.textelion:hover {
+  color: #00719C;
+  transform: scale(1.2);
+  transition-duration: 1s;
 }
 /*# sourceMappingURL=style.css.map */
