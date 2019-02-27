@@ -1,49 +1,50 @@
-/*
- Theme Name:   Twenty Nineteen Child
- Theme URI:    http://example.com/twenty-nineteen-child/
- Description:  Twenty Nineteen Child Theme
- Author:       John Doe
- Author URI:   http://example.com
- Template:     twentynineteen
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twenty-nineteen-child
-*/
-
-body {
-	color: white;
-	background: 	#00719B;
+/* normalize */
+/* -------------------------- */
+/* animation */
+/* -------------------------- */
+/* header */
+/* -------------------------- */
+.animation1 {
+  -webkit-animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+          animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
-.site-branding {
-	font-size: 3em;
-	background: black;
+.animation2 {
+  -webkit-animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+          animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
-.entry-title {
-	text-align:center;
+@-webkit-keyframes flip-2-hor-top-1 {
+  0% {
+    color: red;
+    -webkit-transform: translateY(0) rotateX(0);
+    transform: translateY(0) rotateX(0);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+  100% {
+    color: blue;
+    -webkit-transform: translateY(-100%) rotateX(-180deg);
+    transform: translateY(-100%) rotateX(-180deg);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
 }
 
-
-
-.imglion {
-   text-align: center;
+@keyframes flip-2-hor-top-1 {
+  0% {
+    color: red;
+    -webkit-transform: translateY(0) rotateX(0);
+    transform: translateY(0) rotateX(0);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+  }
+  100% {
+    color: blue;
+    -webkit-transform: translateY(-100%) rotateX(-180deg);
+    transform: translateY(-100%) rotateX(-180deg);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
 }
-
-.imglion img{
-    border: 5px solid;
-    margin:auto;
-}
-
-.entry-title {
-    background-color: black;
-	transition-duration: 1s;
-}
-
-.entry-title:hover {
-
-background-color: #003A57;
-	transition-duration: 1s;
-}
+/*# sourceMappingURL=style.css.map */
