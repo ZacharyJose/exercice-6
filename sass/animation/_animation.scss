@@ -3,7 +3,8 @@
 }
 
 .animation2{
-        animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: rotation 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+
     }
 
 
@@ -15,14 +16,7 @@
       -webkit-transform-origin: 50% 100%;
               transform-origin: 50% 100%;
     }
-    
-    
-    
-    
     100% {
-
-
-
         color: black;
       -webkit-transform: translateY(0) rotateX(0);
               transform: translateY(0) rotateX(0);
@@ -30,3 +24,21 @@
               transform-origin: 50% 0%;
     }
   }
+
+
+  @keyframes rotation {
+        0% {
+            color: white;
+          -webkit-transform: translateY(-100%) rotateX(-180deg);
+                  transform: translateY(-100%) rotateX(-180deg);
+          -webkit-transform-origin: 50% 100%;
+                  transform-origin: 50% 100%;
+        }
+        100% {
+            color: black;
+          -webkit-transform: translateY(0) rotateX(0);
+                  transform: translateY(0) rotateX(0);
+          -webkit-transform-origin: 50% 0%;
+                  transform-origin: 50% 0%;
+        }
+      }
