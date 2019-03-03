@@ -9,13 +9,11 @@
  * @since 1.0.0
  */
 ?>
+zzzzzzzzzzzzzzzzzz - content-titre enfant - zzzzzzzzzzzzzzzzzzzzzzzzz
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-		if ( is_sticky() && is_home() && ! is_paged() ) {
-			printf( '<span class="sticky-post">%s</span>', _x( 'Featured', 'post', 'twentynineteen' ) );
-		}
-		the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+			the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 		?>
 	</header><!-- .entry-header -->
 </article><!-- #post-${ID} -->

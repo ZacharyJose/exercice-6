@@ -1,0 +1,47 @@
+.site-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+.entry-title{
+	font-size: 1em;
+}
+
+.entry{
+	margin-top:0;
+}
+
+
+@include media (mobile) {
+	#listeCours{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 10px;
+		margin: 2%;
+	}
+}
+
+@include media (tablet) {
+	#listeCours{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+		margin: 2%;
+	}
+}
+
+@include media (desktop) {
+	#listeCours{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 10px;
+		margin: 2%;
+	}
+}
+
+@include media (wide) {
+	#listeCours{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 10px;
+		margin: 2%;
+	}
+}
