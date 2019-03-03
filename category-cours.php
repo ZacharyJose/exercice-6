@@ -11,7 +11,7 @@
 
 get_header();
 ?>
-
+///////////////    category-cours.php //////////////////
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -22,6 +22,8 @@ get_header();
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 				?>
 			</header><!-- .page-header -->
+			
+			<div id='listeCours'>
 
 			<?php
 			// Start the Loop.
@@ -37,7 +39,9 @@ get_header();
 
 				// End the loop.
 			endwhile;
-
+			?>
+			</div>
+			<?php
 			// Previous/next page navigation.
 			twentynineteen_the_posts_navigation();
 
