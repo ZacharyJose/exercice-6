@@ -13,9 +13,16 @@
     background: darkcyan(0, 0, 0, 0.2);
     border: 2px solid darkcyan;
     box-shadow: 0 0 18px darkcyan(0, 0, 0, 0.5);
+    transition-duration: 1s;
 }
 
-
+.liste-cours > article:hover{
+    background: darkcyan(0, 0, 0, 0.2);
+    border: 1px solid darkred;
+    box-shadow: 0 0 18px darkcyan(0, 0, 0, 0.5);
+    transition-duration: 1s;
+    color: darkseagreen;
+}
 
 
 @include media (mobile) {
